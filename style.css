@@ -13,6 +13,8 @@ h1 { font-size: 34px; line-height: 1.2; margin: 0 0 12px; }
 h2 { font-size: 21px; margin: 36px 0 8px; }
 p.lead { color: var(--muted); font-size: 19px; }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px 24px; margin: 24px 0; }
+.card.yt { display: flex; gap: 14px; align-items: flex-start; }
+.yt-mark { flex: none; padding-top: 2px; }
 ul { padding-left: 22px; }
 footer { margin-top: 56px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 footer a { color: var(--muted); }
