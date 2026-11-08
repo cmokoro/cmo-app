@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CMO Publisher</title>
+<meta name="description" content="CMO Publisher is a private tool that uploads and schedules videos for the Dim Atlas and Side Quest Club YouTube channels.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <a class="brand" href="./">CMO PUBLISHER</a>
+    <nav><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  </header>
+
+  <h1>A private publishing tool for two YouTube channels</h1>
+  <p class="lead">CMO Publisher is a command-line tool used by one creator to upload, schedule and measure videos on their own YouTube channels, <a href="https://www.youtube.com/@dimatlasaudio">Dim Atlas</a> and <a href="https://www.youtube.com/@sidequestclubtv">Side Quest Club</a>.</p>
+
+  <div class="card">
+    <strong>Not a public service.</strong> CMO Publisher has no sign-up and no other users. It runs on the channel owner's own computer and only ever signs in to the owner's own channels.
+  </div>
+
+  <h2>What it does</h2>
+  <ul>
+    <li><strong>Uploads videos</strong> the owner has produced and personally approved, as private videos with a scheduled publish time, title, description, tags and thumbnail.</li>
+    <li><strong>Reads channel data</strong> (the owner's own video list and upload status) to avoid scheduling two videos in the same slot.</li>
+    <li><strong>Reads YouTube Analytics</strong> for the owner's own videos (views, watch time, subscribers gained) to decide what to make next.</li>
+  </ul>
+
+  <h2>Which Google permissions it uses</h2>
+  <ul>
+    <li><code>youtube.upload</code>: upload videos and set thumbnails on the owner's channel.</li>
+    <li><code>youtube.readonly</code>: read the owner's channel and video details.</li>
+    <li><code>yt-analytics.readonly</code>: read analytics reports for the owner's channel.</li>
+  </ul>
+  <p>It cannot delete videos, change channel settings, post comments, or access any other channel.</p>
+
+  <p>See the <a href="privacy.html">privacy policy</a> and <a href="terms.html">terms of service</a>. CMO Publisher uses YouTube API Services.</p>
+
+  <footer>
+    CMO Publisher · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · <a href="https://github.com/cmokoro/cmo-app/issues">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
